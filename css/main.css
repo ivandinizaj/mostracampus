@@ -5,7 +5,6 @@ body { margin:0; font:normal 75% Arial, Helvetica, sans-serif; overflow: hidden;
 
 canvas { display: block; vertical-align: bottom; }
 
-
 img{
 	border: 0!important;
 	box-shadow: none!important;
@@ -64,12 +63,6 @@ table td{
   transition: top .6s ease-in-out;
 }
 
-.cover{
-	background-size: cover !important;
-	width: 100%;
-	height: 100%;
-}
-
 #first{
   width: 100%;
   height: 100%;
@@ -80,14 +73,6 @@ table td{
   z-index: 999;
   color: magenta;
   font-size: 6vw;
-}
-
-#backInsta{
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
 }
 
 .text-app, .text-app-largue, .text-app-big{
@@ -141,7 +126,7 @@ table td{
   animation-timing-function: step-start;
   color: #f0d123;
   z-index: 999;
-  font-family: "Bungee";
+  font-family: "Bungee"!important;
   font-size: 6vw;
 }
 
