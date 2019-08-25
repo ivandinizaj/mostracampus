@@ -128,7 +128,10 @@
 			},
 			dependencies: [
 			{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js', async: true },
-			{ src: Reveal.getQueryHash().s ? 'plugin/multiplex/master.js' : 'js/client.min.js', async:true }
+			{ src: Reveal.getQueryHash().s ? 'plugin/multiplex/master.js' : 'plugin/multiplex/client.js', async:true },
+				// and if you want speaker notes
+			{ src: 'plugin/notes-server/client.js', async: true }
+
 			]
 		});
 
